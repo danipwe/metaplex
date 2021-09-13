@@ -399,7 +399,7 @@ export function Notifications() {
   metaNeedsApproving.forEach(m => {
     notifications.push({
       id: m.pubkey,
-      title: 'You have a new artwork to approve!',
+      title: 'You have a new Patent to approve!',
       description: (
         <span>
           {whitelistedCreatorsByCreator[m.info.updateAuthority]?.info?.name ||

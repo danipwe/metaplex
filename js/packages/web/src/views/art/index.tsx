@@ -64,7 +64,7 @@ export const ArtView = () => {
       {tag}
       <div style={{ fontSize: 12 }}>
         <i>
-          This artwork is still missing verification from{' '}
+          This patent is still missing verification from{' '}
           {art.creators?.filter(c => !c.verified).length} contributors before it
           can be considered verified and sellable on the platform.
         </i>
